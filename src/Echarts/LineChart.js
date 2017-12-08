@@ -62,7 +62,7 @@ export default class LineChart extends Basic {
 
     if (config.title) {
       option.title = {
-        text: '1233445',
+        text: config.title,
         subtext: config.subtitle,
         textStyle: { color: this.titleColor, fontSize: this.titleSize },
       };
